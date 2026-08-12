@@ -4,23 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    
+    
 </head>
 
 <style>
-.bio{
-    width: 300px;
-    height: 300px;
-    border: 10px solid;
-    border-color: rgb(109, 238, 195);
-    margin-left: 200px;
-    padding: 70px;
-}
 
-</style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
 
-<body>
+    body{
+        background-color: aqua;
+        font-family: PT Serif;
+    }
+
+    h1, p {
+        padding: 20px;
+    }
+
+    h2{
+        padding: 10px;
+    }
+
+    img{
+        width: 250px;
+        border: 50px;
+    }
+
+    .bio{
+        background-color: azure;
+        padding: 20px;
+        border-radius: 10px;
+        width: 500px;
+        margin: auto;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    ul{
+        list-style: none;
+    }
+
+    li{
+        padding: 5px;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .logos {
+        width: 32px;
+
+    }
+    </style>
+
+
+    <body>
     <div class="bio">
-        <p>Testando padding</p>
+        <h1>Olá, eu sou a Luiza</h1>
+        <img src="eu.jpg" alt="Minha foto">
+        <p>Tenho 16 anos, sou estudante de Desinvolvimento de Sistemas.</p>
+        <h2>Meus Hobbies</h2>
+        <ul>
+            <li> Leitura </li>
+            <li>Cozinhar</li>
+            <li>Escutar Musica</li>
+            <li>Assistir Jogo</li>
+
+        </ul>
+
+        <h2>Minhas Especialidades </h2>
+        <ul>
+            <li>Escrever no Wevesrse</li>
+            <li>Jogar Roblox</li>
+            <li>Trabalhar</li>
+        </ul>
+
+
+         <br/>
+
+         <a href="https://github.com/polizelluiza-rgb/aula-fundamentos-html-.git" target="_blank">
+            <img class="logos" src="github.png" alt="GitHub">
+         </a>
+
+         &nbsp;&nbsp;
+
+         <a href="" target="_blank">
+            <img class="logos" src="linkedin.png" alt="Linkedin">
+         </a>
+
+
+
 
     </div>
 
